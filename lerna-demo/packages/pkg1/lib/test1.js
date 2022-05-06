@@ -8,5 +8,5 @@ const _ = require("lodash");
 function test1() {
   console.log(_.camelCase("a_string"));
 }
-test1();
+// test1();
 module.exports = test1;

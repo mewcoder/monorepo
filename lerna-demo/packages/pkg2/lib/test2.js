@@ -10,3 +10,7 @@ function test2() {
 }
 test2();
 module.exports = test2;
+
+const pkg1 = require("pkg1");
+
+console.log(pkg1.test1);
