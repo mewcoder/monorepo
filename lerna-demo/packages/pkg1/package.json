@@ -1,0 +1,32 @@
+{
+  "name": "pkg1",
+  "version": "0.1.1",
+  "description": "> TODO: description",
+  "author": "mew",
+  "homepage": "https://github.com/mewcoder/monorepo#readme",
+  "license": "ISC",
+  "main": "lib/test1.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mewcoder/monorepo.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/mewcoder/monorepo/issues"
+  },
+  "dependencies": {
+    "vue": "2"
+  }
+}
